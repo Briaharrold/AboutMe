@@ -1,0 +1,84 @@
+.text1 {
+    background: linear-gradient(55deg, #ff7700 0%, #ff7700 51%, #ffff 85%);
+    color: #ffffff;
+    text-align: center;
+}
+.textcolor{
+    color: #ffffff;  
+    text-align: center;
+}
+body {
+    height: 2544.5px; /* Used to enable scrolling */
+    background: linear-gradient(55deg, #ffffff 0%, #fff64b 51%, #ff7700 85%);
+  }
+.Txtcolor{
+color: black;
+text-align: center;
+justify-content: center;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  div.container {
+    text-align: center;
+  }
+  
+  ul.myUL {
+    display: inline-block;
+    text-align: left;
+  }
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 250px;
+    font-size: 40px;
+  }
+  .bottom-right{
+    position: absolute;
+    justify-content: center;
+    color: #000000;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+  }
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 300px;
+    font-size: 40px;
+    color: #ff7700;
+  }
+  .centered {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    font-size: 40px;
+    color: #ffffff;
+    transform: translate(-50%, -50%);
+  }
+  .ptext{
+    font-size: 18px;
+  }
+  .rowStyle{
+    margin-left: 8%;
+  }
